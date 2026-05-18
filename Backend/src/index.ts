@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import apiRouter from "./routes/index";
+import router from "./routes/index";
 import { errorHandler } from "./middleware/errorHandler";
 import logger from "./utils/logger";
 
@@ -12,7 +12,7 @@ const app = express();
 app.use(cors({ origin: process.env.CLIENT_URL || "*" }));
 app.use(express.json());
 
-app.use("/api", apiRouter);
+app.use("/api", router);
 
 app.use(errorHandler);
 

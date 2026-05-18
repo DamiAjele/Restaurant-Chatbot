@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import apiRouter from "./routes";
+import apiRouter from "./routes/index";
 import { errorHandler } from "./middleware/errorHandler";
 import logger from "./utils/logger";
 

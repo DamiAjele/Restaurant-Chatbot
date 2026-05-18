@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-self: flex-start;
+  max-width: 85%;
+}
+
+.prompt {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-bubble-bot);
+  padding: 14px 16px;
+}
+
+.text {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-text-primary);
+}
+
+.payBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  padding: 14px 24px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.payBtn:hover:not(:disabled) {
+  background: #7a3500;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(157, 67, 0, 0.3);
+}
+
+.payBtn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.payBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

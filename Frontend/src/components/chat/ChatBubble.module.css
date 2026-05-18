@@ -1,0 +1,19 @@
+.bubble {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-bubble-bot);
+  box-shadow: var(--shadow-bubble);
+  padding: 14px 16px;
+  max-width: 85%;
+  align-self: flex-start;
+}
+
+.text {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--color-text-primary);
+  white-space: pre-wrap;
+  word-break: break-word;
+}

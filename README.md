@@ -4,7 +4,7 @@ This is a simple restaurant chatbot with a TypeScript + Express backend and a Re
 
 Quick links
 
-- Frontend: [Frontend](Frontend)
+- Frontend: [Frontend](https://restaurant-chatbot-ten.vercel.app/)
 
 Prerequisites
 

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: "https://restaurant-chatbot-k9k3.onrender.com/api",
+  baseURL: "/api",
   headers: { "Content-Type": "application/json" },
   timeout: 15000,
 });
